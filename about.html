@@ -1,26 +1,71 @@
-<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us</title>
+    <link rel="stylesheet" href="about.css">
 </head>
+
 <body>
-    <h1>About us:</h1>
-      <br /><br />
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates mollitia similique praesentium omnis, deserunt ipsum exercitationem sit quod, ab dolor ratione illum placeat. Molestiae reiciendis fugit obcaecati voluptatibus at. Qui!
-        <br /><br />
-        <br /><br />
-        <br /><br />
-        <br /><br />
-        <br /><br />
-      </p>
-    </main>
+     <h1>About Us</h1>
+     <br>
+     <div class="slideshow-container">
+     
+     <div class="mySlides fade">
+       <h2>Schedule your daily planner!</h2>
+       <img src="schedule.jpg" style="width:100%">
+       <div class="text"></div>
+     </div>
+     
+     <div class="mySlides fade">
+       <h2>Learn More!</h2>
+       <img src="learn.jpg" style="width:100%">
+       <div class="text"></div>
+     </div>
+     
+     <div class="mySlides fade">
+       <h2>See your improvement!</h2>
+       <img src="progress.jpg" style="width:100%">
+       <div class="text"></div>
+     </div>
+     
+     </div>
+     <br>
+     
+     <div style="text-align:center">
+       <span class="dot"></span> 
+       <span class="dot"></span> 
+       <span class="dot"></span> 
+     </div>
+     <script>
+        let slideIndex = 0;
+        showSlides();
+        
+        function showSlides() {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 1}    
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+          setTimeout(showSlides, 2000); // Change image every 2 seconds
+        }
+        </script>
+        <br>
     <footer>
-      <p class="text-center">Contact: 7977318761</p>
-      <p class="text-center">Email: xyz@gmail.com</p>
-      <p class="text-center">Location: Mumbai, India</p>
+        <p class="text-center"><a href="#"><img src="https://img.icons8.com/material-sharp/20/contact-card.png" alt=""></a>: 7977318761</p>
+        <p class="text-center"><a href="#"><img src="https://img.icons8.com/ios/20/new-post.png" alt=""></a>: xyz@gmail.com</p>
+        <p class="text-center"><a href="#"><img src="https://img.icons8.com/arcade/20/experimental-marker-arcade.png" alt=""></a>: Mumbai, India</p>
     </footer>
 </body>
+
 </html>
