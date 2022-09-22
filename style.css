@@ -50,3 +50,8 @@ line-height: 42px;
 
 color: #FFFFFF;
 }
+footer{
+    text-align: center;
+    height: 40px;
+    background-color: azure;
+}
