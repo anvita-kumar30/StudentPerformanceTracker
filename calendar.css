@@ -147,3 +147,8 @@ body {
 .btn:active{
     transform:scale(0.98);
 }
+footer{
+  text-align: center;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+}
