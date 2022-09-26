@@ -12,7 +12,7 @@ body {
     outline: none;
     padding: 5px;
     border-radius: 5px;
-    color: #974e4e;
+    color: #b56b6b;
   }
   
   #header {
@@ -51,9 +51,9 @@ body {
     height: 100px;
     cursor: pointer;
     box-sizing: border-box;
-    background-color:#74719e;
+    background-color:#7571b5;
     margin: 5px;
-    box-shadow: 0px 0px 3px rgb(36, 38, 85);
+    box-shadow: 0px 0px 3px rgb(55, 57, 121);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
