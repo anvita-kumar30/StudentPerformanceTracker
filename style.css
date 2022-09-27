@@ -55,3 +55,24 @@ footer{
     height: 40px;
     background-color: rgb(255, 255, 255);
 }
+.btn{
+    position: absolute;
+    top: 628px;
+    left: 170px;
+    cursor:pointer;
+    display:inline-block;
+    width:20%;
+    background: rgb(68, 59, 74);
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    font-family: inherit;
+    font-size: 16px;
+    border: 0;
+    border-radius: 5px;
+}
+.btn:focus{
+    outline:0;
+}
+.btn:active{
+    transform:scale(0.98);
+}
