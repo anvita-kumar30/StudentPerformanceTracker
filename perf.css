@@ -1,7 +1,7 @@
 .hero-content h1{
     text-align: center;
 }
-.piechart {
+.piechart1 {
     margin-top: 10px;
     display: block;
     position: absolute;
@@ -13,10 +13,44 @@
         lightblue 0 235deg, 
         orange 0);
 }
-.piechart {
+.piechart1 {
     display: flex;
     justify-content: left;
     align-items: left;
+}
+.piechart2 {
+    margin-top: 10px;
+    display: block;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-image: conic-gradient(
+        pink 70deg, 
+        lightblue 0 235deg, 
+        orange 0);
+}
+.piechart2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.piechart3 {
+    margin-top: 10px;
+    display: block;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-image: conic-gradient(
+        pink 70deg, 
+        lightblue 0 235deg, 
+        orange 0);
+}
+.piechart3 {
+    display: flex;
+    justify-content: right;
+    align-items: right;
 }
 .btn{
     position: absolute;
