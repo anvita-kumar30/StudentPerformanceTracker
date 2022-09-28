@@ -43,7 +43,7 @@ form{
 
 .btn{
     color: white;
-    background: purple;
+    background: rgb(8, 159, 241);
     padding: 8px 12px;
     font-size: 20px;
     border: 2px solid white;
@@ -55,7 +55,7 @@ form{
     width: 100%;
     position: absolute;
     z-index: -1;
-    opacity: 0.5;
+    opacity: 0.7;
 }
 .submitMsg{ 
     font-family: 'Sans-serif', cursive;
