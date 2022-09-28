@@ -76,3 +76,8 @@ footer{
 .btn:active{
     transform:scale(0.98);
 }
+.hero-content h1{
+    text-align: left;
+    font-family: 'Sans-serif', cursive;
+    font-size: 40px;
+}

@@ -52,7 +52,7 @@ if(isset($_POST['name'])){
     <link rel="stylesheet" href="form.css">
 </head>
 <body>
-    <img class="form" src="form.jpg" alt="Form">
+    <img class="bg" src="form.jpg" alt="Form">
     <div class="container">
         <h1>Welcome to Student Performance Tracker</h3>
         <p>Enter your details and submit this form </p>
