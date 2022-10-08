@@ -21,9 +21,39 @@ nav {
   justify-content: flex-start;
   height: 72px;
 }
-body{
+/* .events1{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    cursor:pointer;
+    display:inline-block;
+    width:20%;
+    background: rgb(68, 59, 74);
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    font-family: inherit;
+    font-size: 16px;
+    border: 0;
+    border-radius: 5px;
+} */
+/* .events2{
+  position: absolute;
+  top: 450px;
+  left: 1200px;
+  cursor:pointer;
+  display:inline-block;
+  width:20%;
+  background: rgb(68, 59, 74);
+  color: rgb(255, 255, 255);
+  padding: 15px;
+  font-family: inherit;
+  font-size: 16px;
+  border: 0;
+  border-radius: 5px;
+} */
+/* body{
   font-family: "Roboto", sans-serif;
-}
+} */
 footer{
     text-align: center;
       height: 40px;
