@@ -7,15 +7,38 @@
     <title>About Us</title>
     <link rel="stylesheet" href="about.css">
 </head>
-
 <body>
   <header>
-    <nav>
-        <ul class="nav-items">
-            <li><a href="index.html">Home</a></li><br>
-            <li><a href="about.html">About Us</a></li><br>
-            <li><a href="dashboard.html">Dashboard</a></li><br>
-        </ul>
+    <nav class="navbar navbar-dark bg-dark">
+      <a class="navbar-brand" href="index.html">
+        <img src="https://img.icons8.com/ios/20/home.png" width="30" height="30" class="d-inline-block align-top"
+          alt="">
+        Home
+      </a>
+      <a class="navbar-brand" href="about.html">
+        <img src="https://img.icons8.com/ios-glyphs/20/about-us-male.png" width="30" height="30"
+          class="d-inline-block align-top" alt="">
+        About Us
+      </a>
+      <a class="navbar-brand" href="dashboard.html">
+        <img src="https://img.icons8.com/material-outlined/20/dashboard-layout.png" width="30" height="30"
+          class="d-inline-block align-top" alt="">
+        Dashboard
+      </a>
+      <li>
+        <div class="dropdown">
+          <button class="dropbtn"> <img
+              src="https://img.icons8.com/external-anggara-detail-outline-anggara-putra/40/external-profile-office-anggara-detail-outline-anggara-putra.png"
+              alt="">
+          </button>
+          <div class="dropdown-content">
+            <a href="#">MyProfile</a>
+            <a href="#">Settings</a>
+            <a href="#">Help</a>
+            <a href="logout.php">Logout</a>
+          </div>
+        </div>
+      </li>
     </nav>
 </header>
      <h1>About Us</h1>
@@ -76,5 +99,4 @@
         <p class="text-center"><a href="#"><img src="https://img.icons8.com/arcade/20/experimental-marker-arcade.png" alt=""></a>: Mumbai, India</p>
     </footer>
 </body>
-
 </html>
