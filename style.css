@@ -21,15 +21,13 @@ body{
     margin: 0 auto;
 
 }
-    nav {
+nav {
         display: flex;
         align-items: center;
         justify-content: flex-start;
         height: 72px;
         background-color: burlywood;
-    }
-
-
+}
 nav ul {
     position: absolute;
     left: 300px;
@@ -43,13 +41,11 @@ nav ul li {
     list-style: none;
     padding: 0 40px;
 }
-
 nav ul li a {
     font-family: 'Ubuntu', sans-serif;
     color: white;
     text-decoration: none;
 }
-
 nav ul li a:hover {
     border: 0px;
     border-radius: 50px;
