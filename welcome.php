@@ -84,7 +84,7 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!==true)
     </script>
 </div>
 <div class="eventsbutton">
-  <button class="events" id="myBtn3">Upcoming Assignments</button>
+  <button class="events" id="myBtn3">Study Material</button>
   <script>
       document.getElementById("myBtn3").addEventListener("click", myFunction);
       function myFunction() {
