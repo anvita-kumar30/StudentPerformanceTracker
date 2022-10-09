@@ -58,16 +58,45 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!==true)
     <div class="container mt-4">
         <h3> <?php echo "Welcome ". $_SESSION['username']?>! You can now use this website</h3>
         <hr>
-
-        
-
-
-    </div>
+</div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-</body>
 
+    <div class="eventsbutton">
+      <button class="events" id="myBtn1"> My Schedule </button>
+      <script>
+          document.getElementById("myBtn1").addEventListener("click", myFunction);
+          function myFunction() {
+              window.location.href = "calendar.html";
+          }
+      </script>
+  </div>
+  <div class="eventsbutton">
+    <button class="events" id="myBtn2"> My Performance </button>
+    <script>
+        document.getElementById("myBtn2").addEventListener("click", myFunction);
+        function myFunction() {
+            window.location.href = "perf.html";
+        }
+    </script>
+</div>
+<div class="eventsbutton">
+  <button class="events" id="myBtn3">Upcoming Assignments</button>
+  <script>
+      document.getElementById("myBtn3").addEventListener("click", myFunction);
+      function myFunction() {
+          window.location.href = "assignment.html";
+      }
+  </script>
+</div>
+<hr>
+    <footer>
+        <p class="text-center"><a href="#"><img src="https://img.icons8.com/material-sharp/20/contact-card.png" alt=""></a>: 7977318761</p>
+        <p class="text-center"><a href="#"><img src="https://img.icons8.com/ios/20/new-post.png" alt=""></a>: xyz@gmail.com</p>
+        <p class="text-center"><a href="#"><img src="https://img.icons8.com/arcade/20/experimental-marker-arcade.png" alt=""></a>: Mumbai, India</p>
+    </footer>
+</body>
 </html>
