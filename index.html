@@ -51,7 +51,14 @@
           <h1>Student Performance Tracker</h1>
 
           <img src="calendar.png" alt="" height="400px">
-          <hr>
+          <hr><br><br><br><br>
+          <form action="/action_page.php">
+            <label for="cars">User:</label>
+            <select name="cars" id="cars">
+              <option value="student">Student</option>
+              <option value="teacher">Teacher</option>
+            </select>
+          </form><br>
           <div class="permissionbutton">
             <button class="btn" id="myBtn2"> Register </button>
             <script>
@@ -60,13 +67,10 @@
                 window.location.href = "register.php";
               }
             </script>
-            <br>
-            <br>
-            <br>
           </div>
           <hr>
-          <p> Real-time tracking of students learning outcomes and their academic progress.
-
+          <p> 
+            Real-time tracking of students learning outcomes and their academic progress.
           </p>
         </div>
         <br>
