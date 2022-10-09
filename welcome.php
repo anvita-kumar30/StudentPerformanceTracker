@@ -66,7 +66,7 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!==true)
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
     <div class="eventsbutton">
-      <button class="events" id="myBtn1"> My Schedule </button>
+      <button class="events" id="myBtn1">My Schedule</button>
       <script>
           document.getElementById("myBtn1").addEventListener("click", myFunction);
           function myFunction() {
@@ -75,7 +75,7 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!==true)
       </script>
   </div>
   <div class="eventsbutton">
-    <button class="events" id="myBtn2"> My Performance </button>
+    <button class="events" id="myBtn2">My Performance</button>
     <script>
         document.getElementById("myBtn2").addEventListener("click", myFunction);
         function myFunction() {
@@ -84,7 +84,7 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!==true)
     </script>
 </div>
 <div class="eventsbutton">
-  <button class="events" id="myBtn3">Study Material</button>
+  <button class="events" id="myBtn3">Study Materials</button>
   <script>
       document.getElementById("myBtn3").addEventListener("click", myFunction);
       function myFunction() {
