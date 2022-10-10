@@ -21,6 +21,53 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!==true)
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <title>Login system</title>
+    <style>
+       .events1{
+    position: absolute;
+    top: 300px;
+    left: 50px;
+    cursor:pointer;
+    display:inline-block;
+    width:20%;
+    background: rgb(68, 59, 74);
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    font-family: inherit;
+    font-size: 16px;
+    border: 0;
+    border-radius: 5px;
+} 
+ .events2{
+  position: absolute;
+  top: 300px;
+  left: 610px;
+  cursor:pointer;
+  display:inline-block;
+  width:20%;
+  background: rgb(68, 59, 74);
+  color: rgb(255, 255, 255);
+  padding: 15px;
+  font-family: inherit;
+  font-size: 16px;
+  border: 0;
+  border-radius: 5px;
+} 
+.events3{
+  position: absolute;
+  top: 300px;
+  left: 1200px;
+  cursor:pointer;
+  display:inline-block;
+  width:20%;
+  background: rgb(68, 59, 74);
+  color: rgb(255, 255, 255);
+  padding: 15px;
+  font-family: inherit;
+  font-size: 16px;
+  border: 0;
+  border-radius: 5px;
+}  
+    </style>
 </head>
 
 <body>
