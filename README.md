@@ -1,3 +1,4 @@
+# Student Performance Tracker
 This is a website which helps the students to track their own performance. This website also allows the students to create their own schedules for the day.
 
 The below image is the home page-
